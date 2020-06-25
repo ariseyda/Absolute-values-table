@@ -33,7 +33,7 @@ int main(){
 	double array1[size1];
 	printf("Please enter term of array:");
 	for(i=0;i<size1;i++){
-		scanf("%lf",&array1[i]);
+		scanf("%lf",&array1[i]);//When using scanf, we use% lf to get double values.
 	}
 	
 	abs_table(array1,size1);
